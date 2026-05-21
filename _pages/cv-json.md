@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <!-- {% include cv-template.html %} -->
-<iframe src="files/CV.pdf" width="100%" height="800px" style="border: none;">
+<iframe src="{{ base_path }}/files/CV.pdf" width="100%" height="800px" style="border: none;">
 </iframe>
   
 <div class="cv-download-links">
