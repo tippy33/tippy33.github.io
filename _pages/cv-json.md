@@ -9,9 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-{% include cv-template.html %}
-
+<!-- {% include cv-template.html %} -->
+<iframe src="files/CV.pdf" width="100%" height="800px" style="border: none;">
+</iframe>
+  
 <div class="cv-download-links">
   <a href="{{ base_path }}/files/CV.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
 </div>
